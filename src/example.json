@@ -1,0 +1,54 @@
+{
+	"AZ-sandbox": {
+		"ResourceGroup": "AZ-sandbox",
+		"GroupID": [{
+			"displayName": "group name",
+			"mail": null,
+			"objectId": "000000000000000000000000000000000000000",
+			"objectType": "Group",
+			"securityEnabled": true
+		}],
+		"Roles": [
+			"rolename"
+		],
+		"SubscriptionID": "00000000000",
+		"App-Keys": [{
+			"appId": "f000000000000000000000000000000000000000",
+			"displayName": "azure-cli-key",
+			"objectId": "f000000000000000000000000000000000000000",
+			"objectType": "ServicePrincipal",
+			"servicePrincipalNames": [
+				"http://azure-cli-key",
+				"f000000000000000000000000000000000000000"
+			]
+		}]
+	},
+	"AZ-test": {
+		"ResourceGroup": "AZ-test",
+		"GroupID": [{
+			"displayName": "group name",
+			"mail": null,
+			"objectId": "e000000000000000000000000000000000000000",
+			"objectType": "Group",
+			"securityEnabled": true
+		}],
+		"Roles": [
+			"rolename"
+		],
+		"SubscriptionID": "00000000000",
+		"App-Keys": [{
+			"appId": "f000000000000000000000000000000000000000",
+			"displayName": "azure-cli-key",
+			"objectId": "f0000000000000000000000000000000000000009",
+			"objectType": "ServicePrincipal",
+			"servicePrincipalNames": [
+				"http://azure-cli-key",
+				"f0000000000000000000000000000000000000006"
+			]
+		}]
+	}
+
+
+
+
+}
