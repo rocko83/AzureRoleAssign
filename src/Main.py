@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 from LerJson import LerJson as Lj
 import argparse
 
